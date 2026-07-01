@@ -247,3 +247,10 @@ function deleteStudent(index) {
 function logout() {
     window.location.href = "index.html";
 }
+let admin = {
+    name: "Rudresh Gowda",
+    email: "rudresh@gmail.com",
+    profile: "images/profile.png"
+};
+
+localStorage.setItem("admin", JSON.stringify(admin));
